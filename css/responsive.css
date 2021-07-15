@@ -1,240 +1,94 @@
-@media (max-width: 1024px) {
-  nav {
-    width: 100%;
-    margin: 0 25px;
-  }
-  .section1 .text-block {
-    height: auto;
-  }
-  .section1 .text-block h2 {
-    height: inherit;
-    padding: 20px 0;
-  }
-  .section1 .text-block .last-p {
-    margin: 10px 0 0 0;
-  }
-  .icon-box {
-    width: 200px;
-    height: 300px;
-  }
-  .icon-box h4 {
-    width: 170px;
-  }
-  .icon-box p {
-    width: 180px;
-  }
-}
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
-@media (max-width: 920px) {
-  .text-block h2 {
-    font-size: 35px;
-  }
+@media (max-width: 1024px){
+    .burger-icon {
+        display: block;
+        font-weight: bold;
+        color: #FFFFFF;
+        font-size: 30px;
+    }
+    nav ul :nth-child(1) {
+        color: #fff;
+    }
+    nav ul {
+        display: none;
+    }
+    .text-box {
+        margin: 0 auto;
+    }
+    .icons-box {
+        max-width: 600px;
+        width: 100%;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        margin: 0 auto;
+    }
+    .section2 {
+        height: auto;
+        padding: 20px 0;
+    }
+    .icon-box:nth-child(1),
+    .icon-box:nth-child(2) {
+        margin-bottom: 10px;
+    }
 }
-
-@media (max-width: 860px) {
-  .text-block h2 {
-    font-size: 30px;
-    line-height: 30px;
-  }
-  .burger-icon {
-    display: block;
-    font-weight: bold;
-    color: #FFFFFF;
-    font-size: 30px;
-    right: 40px;
-    position: relative;
-  }
-  nav ul :nth-child(1) {
-    color: #fff;
-  }
-  nav ul {
-    display: none;
-  }
+@media (max-width: 980px){
+    .twin-pics {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
 }
-
-@media (max-width: 768px) {
-  .section1 {
-    max-width: 1088px;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+@media (max-width: 768px){
+    .section1 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align:center;
+            -ms-flex-align:center;
+                align-items:center;
+    }
+    .text-block{
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 530px){
+.icon-box:nth-child(4) {
+        margin-top: 10px;
+    }
+    .text-block{
+        padding: 20px;
+    }
+}
+@media (max-width: 480px){
+    nav{
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 90px auto 0 auto;
-  }
-  .text-block {
-    padding: 0 30px;
-    max-width: 444px;
-    width: 100%;
-    height: 410px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    padding-bottom: 40px;
-  }
-  .text-block h3 {
-    color: #5863F8;
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-  .text-block h2 {
-    max-width: 370px;
-    width: 100%;
-    height: 115px;
-    line-height: 56px;
-    font-size: 42px;
-    font-weight: 700;
-  }
-  .text-block .last-p {
-    margin-top: 15px;
-  }
-  .icon {
-    border-radius: 50px;
-    width: 53px;
-    height: 53px;
-  }
-  .icon-box {
-    width: 300px;
-    height: 180px;
-    margin-top: 10px;
-  }
-  .icon-box h4 {
-    font-size: 14px;
-    width: 280px;
-  }
-  .icon-box p {
-    width: 280px;
-  }
 }
-
-@media (max-width: 620px) {
-  .icon-box {
-    width: 260px;
-    height: 180px;
-    margin-top: 10px;
-  }
+.burger-icon {
+    font-size: 20px;
 }
-
-@media (max-width: 480px) {
-  .icon-box {
-    width: 180px;
-    height: 110px;
-    margin-top: 10px;
-  }
-  .icon-box h4 {
-    font-size: 12px;
-    width: 180px;
-    height: 38px;
-    line-height: 12px;
-    margin-top: 5px;
-    margin-bottom: 0px;
-  }
-  .icon-box p {
-    font-size: 10px;
-    width: 200px;
-    line-height: 10px;
-  }
-  .icon {
-    display: none;
-  }
-  .images-block {
-    max-width: 536px;
-    width: 100%;
-    height: 400px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .twin-pics {
-    display: none;
-  }
-  .big-image2 {
-    height: 520px;
-  }
 }
-
-@media (max-width: 480px) {
-  .text-block {
-    max-width: 320px;
-    width: 100%;
-    height: 410px;
-  }
-  .text-block h3 {
-    color: #5863F8;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-  .text-block h2 {
-    max-width: 320px;
-    width: 100%;
-    height: 115px;
-    line-height: 40px;
-    font-size: 35px;
-  }
-  h1 {
-    padding-top: 40px;
-    left: 50px;
-  }
-  .text-box h2 {
-    max-width: 367px;
-    width: 100%;
-    height: 90px;
-    font-size: 35px;
-    font-weight: 700;
-    text-align: center;
-  }
-  .big-image2 {
-    height: 612px;
-  }
-  .icon-box {
-    width: 180px;
-    height: 90px;
-    margin-top: 10px;
-  }
-  .icons-box {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .stairs {
+@media (max-width: 320px){
+.text-block {
     max-width: 300px;
-  }
-  .images-block {
-    margin-top: 50px;
-    height: 150px;
-  }
+    width: 100%;
 }
-/*# sourceMappingURL=responsive.css.map */
+.burger-icon {
+    font-size: 20px;
+}
+h1 {
+    margin-left: 60px;
+}
+}
