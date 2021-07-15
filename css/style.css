@@ -1,0 +1,218 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav ul {
+    max-width: 561px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+nav li a {
+    text-transform: uppercase;
+    font-weight: semi-bold;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.home {
+    color: #5863F8;
+}
+.logo {
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.burger-icon {
+    display: none;
+}
+.mobile-nav {
+    position: fixed;
+    font-size: 10px;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.burger-icon:hover .mobile-nav{
+    display: block;
+    color:#fff;
+}
+.bg-image {
+    background-image: url(../images/Group72.png);
+    max-width: 1366px;
+    width: 100%;
+    height: 324px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column; 
+}
+
+h1 {
+    position: relative;
+    left: 25px;
+    top: 146px;
+    width: 200px;
+    height: 59px;
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight:800;
+}
+.section1 {
+    max-width: 1088px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 90px auto 0 auto;
+}
+.text-block {
+    max-width: 444px;
+    width: 100%;
+    height: 410px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.text-block h3 {
+    color: #5863F8;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.text-block h2 {
+    max-width: 370px;
+    width: 100%;
+    height: 115px;
+    line-height: 56px;
+    font-size: 42px;
+    font-weight: 700;
+}
+.last-p {
+    width: 184px;
+    height: 50px;
+    background-color:#5863F8;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.images-block{
+    max-width: 536px;
+    width: 100%;
+    /* height: 461px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+.images-block > div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.section2 {
+    margin-top: 90px;
+}
+.icon {
+    border-radius: 50px;
+    width: 59px;
+    height: 59px;
+    background-color: #5863F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big-image2 {
+    background-image: url(../images/bg-image.png);
+    height: 612px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-container {
+    max-width: 1088px;
+    width: 100%;
+    height: 430px;
+    margin: 0 auto;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.icons-box {
+    max-width: 1088px;
+    width: 100%;
+    min-height: 270px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-box {
+    width: 260px;
+    height: 260px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.icon-box h4 {
+    width: 188px;
+    height: 52px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.icon-box p {
+    width: 221px;
+    height: 62px;
+    font-size: 14px;
+    text-align:center;
+    line-height: 21px;
+}
+.text-box h2{
+    max-width: 367px;
+    width: 100%;
+    height:115px;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 800;
+}
+.text-box h3 {
+    width: 80px;
+    height: 20px;
+    color: #5863F8;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
