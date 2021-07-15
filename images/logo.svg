@@ -1,3 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="83" height="20" viewBox="0 0 83 20">
-  <text id="Zetta_Hotels" data-name="Zetta Hotels" transform="translate(0 15)" fill="#fff" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Zetta Hotels</tspan></text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="98.69043"
+   height="10.875977"
+   viewBox="0 0 98.690429 10.875977"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="16.120482"
+     inkscape:cx="69.042601"
+     inkscape:cy="8.064275"
+     inkscape:window-width="1861"
+     inkscape:window-height="1023"
+     inkscape:window-x="59"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <text
+     id="Zetta_Hotels"
+     data-name="Zetta Hotels"
+     fill="#ffffff"
+     font-size="14px"
+     font-family="Poppins-Regular, Poppins"
+     x="-1.0664062"
+     y="10.677734"><tspan
+       x="-1.0664062"
+       y="10.677734"
+       id="tspan2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Menlo;-inkscape-font-specification:Menlo;fill:#ffffff">Zetta Hotels</tspan></text>
 </svg>
